@@ -11,12 +11,17 @@ config_version=5
 [application]
 
 config/name="3D Action RPG Starter Project"
+run/main_scene="res://Scenes/Levels/level_1.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [display]
 
 window/stretch/mode="canvas_items"
+
+[dotnet]
+
+project/assembly_name="3D Action RPG Starter Project"
 
 [filesystem]
 
@@ -25,5 +30,3 @@ import/fbx/enabled=false
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0
-renderer/rendering_method="gl_compatibility"
-renderer/rendering_method.mobile="gl_compatibility"
